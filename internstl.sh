@@ -3,13 +3,12 @@
 # internsctl script
 
 # Function to display help
-display_help() {
-    echo "Usage: internsctl <command> [options] [arguments]"
+disp_help() {
+    echo "  user list                   List all regular users"
     echo "Commands:"
     echo "  cpu getinfo                 Display CPU information"
     echo "  memory getinfo              Display Memory information"
     echo "  user create <username>      Create a new user"
-    echo "  user list                   List all regular users"
     echo "  user list --sudo-only       List users with sudo permissions"
     echo "  file getinfo <file-name>    Display information about a file"
     echo "    Options:"
@@ -17,10 +16,11 @@ display_help() {
     echo "      --permissions, -p       Print file permissions"
     echo "      --owner, -o             Print file owner"
     echo "      --last-modified, -m     Print last modified time"
+    echo "Usage: internsctl <command> [options] [arguments]"
 }
 
 # Function to display version
-display_version() {
+disp_version() {
     echo "internsctl v0.1.0"
 }
 
@@ -92,9 +92,9 @@ get_file_info_with_options() {
 
 # Main script logic
 if [ "$1" == "--help" ]; then
-    display_help
+    disp_help
 elif [ "$1" == "--version" ]; then
-    display_version
+    disp_version
 elif [ "$1" == "cpu" ] && [ "$2" == "getinfo" ]; then
     get_cpu_info
 elif [ "$1" == "memory" ] && [ "$2" == "getinfo" ]; then
