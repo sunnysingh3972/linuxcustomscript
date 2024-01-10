@@ -99,4 +99,6 @@ internsctl file getinfo example.txt --size
 
 ## FlowChart
 ![image](https://github.com/sunnysingh3972/linuxcustomscript/assets/76744031/01a6f181-2a58-45de-9bb3-30f06ba75ef9)
+![image](https://github.com/sunnysingh3972/linuxcustomscript/assets/76744031/956aafae-e2cf-44df-8f04-db0e1c77dd06)
+
 
