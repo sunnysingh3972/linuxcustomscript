@@ -97,4 +97,6 @@ internsctl file getinfo example.txt --size
 - `internsctl`: The main Bash script file.
 - `README.md`: This documentation file.
 
+## FlowChart
+![image](https://github.com/sunnysingh3972/linuxcustomscript/assets/76744031/01a6f181-2a58-45de-9bb3-30f06ba75ef9)
 
