@@ -25,6 +25,8 @@ internsctl --help
 ```
 
 Displays usage information and a list of available commands.
+![image](https://github.com/sunnysingh3972/linuxcustomscript/assets/76744031/4b5710ea-f931-4f6a-b6d0-f7341ce95864)
+
 
 #### 2. Display Version
 
@@ -33,6 +35,8 @@ internsctl --version
 ```
 
 Displays the current version of the `internsctl` script.
+![image](https://github.com/sunnysingh3972/linuxcustomscript/assets/76744031/ce3ae6ea-94a3-4921-8526-bbd5716f98ec)
+
 
 #### 3. CPU Information
 
